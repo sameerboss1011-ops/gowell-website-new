@@ -97,8 +97,8 @@ body.auth-locked{overflow:hidden}body.auth-locked> :not(#authGate){visibility:hi
 <nav class="nav"><button class="active" data-page="home"><span class="ico">⌂</span>Home</button><button data-page="income"><span class="ico">▣</span>Income</button><button data-page="share"><span class="ico">♧</span>Share</button><button data-page="team"><span class="ico">♙</span>Team</button><button data-page="my"><span class="ico">♙</span>My</button></nav>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
-const GOWELL_SUPABASE_URL = "https://sdcuhglmhypnqabymyyc.supabase.co";
-const GOWELL_SUPABASE_KEY = "sb_publishable_USVdfQQnbvrPNNd_AFurSA_L6VNpgKO";
+const GOWELL_SUPABASE_URL = "https://oomkxptmznpsudtjfgmb.supabase.co";
+const GOWELL_SUPABASE_KEY = "sb_publishable_fERnQhIegeB4xehHVjC9aw_pShbc9CQ";
 const gowellSupabase = (window.supabase && window.supabase.createClient) ? window.supabase.createClient(GOWELL_SUPABASE_URL, GOWELL_SUPABASE_KEY) : null;
 function authMessage(text, isError=false){const el=document.getElementById('authStatus');if(el){el.textContent=text;el.style.color=isError?'#b42318':'#087f3e';}}
 function gateMessage(text,isError=false){const el=document.getElementById('gateMsg');if(el){el.textContent=text;el.style.color=isError?'#b42318':'#087f3e';}}
